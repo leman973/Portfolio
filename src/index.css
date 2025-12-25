@@ -213,6 +213,49 @@
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.3)
 }
 
+@media (max-height: 760px) {
+
+  /* IMAGE */
+  .hero-image {
+    width: 220px;
+    height: 200px;
+  }
+
+  /* ROCKETS */
+  .rocket {
+    width: 50px;
+  }
+
+  .rocket-right {
+    left: 151px;
+    top: 82%;
+  }
+
+  .rocket-left {
+    left: -5px;
+    top: 82%;
+  }
+
+  /* TEXT */
+  h1.hero-title {
+    font-size: 1.75rem;
+  }
+
+  /* BUTTON */
+  .hero-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    /* text-sm */
+  }
+
+  .hero-text {
+    font-size: 0.940rem;
+    /* text-sm */
+    line-height: 1.25rem;
+    /* tighter lines */
+  }
+}
+
 #root {
   max-width: 100%;
   margin: 0 auto;
