@@ -1,7 +1,7 @@
 import { ArrowDown } from "lucide-react"
 
 export const HeroSection = () => {
-    return <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center px-4 bg-secondary/10">
+    return <section id="hero" className="relative min-h-screen pb-20 flex flex-col items-center justify-center px-4 bg-secondary/10">
         <div className="md:flex gap-2 justify-center items-center object-contain">
             <div className="container relative w-[260px] h-60 xl:w-[300px] xl:h-80 md:shrink-0 animate-drift my-8 mx-auto">
                 <img className="me w-full h-full rounded-2xl animate-floating object-cover origin-center shadow-[0_0_40px_rgba(255,255,255,0.3)]" src="\projects\profile.jpeg" alt="Me" />

@@ -6,7 +6,7 @@ import { cn } from "../lib/utils";
 
 
 export const ThemeToggle =()=>{
-    const [isDarkMode, setisDarkMode] = useState(false);
+    const [isDarkMode, setisDarkMode] = useState(true);
 
     useEffect(() => {
         const storedTheme = localStorage.getItem("theme");
