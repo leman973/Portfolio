@@ -58,7 +58,7 @@ export const ContactMe = () => {
                 </form>
             </div>
 
-            <div className="my-3 flex gap-6 justify-center items-center">
+            <div className="mx-2 my-3 flex gap-6 justify-center items-center">
                 <div className="flex gap-2 bg-secondary/70 py-2 px-3 rounded-3xl cursor-pointer hover:bg-secondary/90 hover:scale-[1.05] transition-transform duration-300 ">
                     <Instagram></Instagram>
                     <a className="text-bold" href="https://www.instagram.com/manjapallil_amal07?igsh=MTFlNTE3aGd5MXdvdw==" target="_blank">INSTAGRAM</a>
@@ -69,6 +69,9 @@ export const ContactMe = () => {
                     <a className="text-bold" href="https://www.linkedin.com/in/amal-manjapallil-706ba6281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LINKEDIN</a>
                 </div>
             </div>
+        </div>
+        <div className="absolute bottom-2 w-full mx-2  left-1/2 -translate-x-1/2 my-2">
+            <p className="text-sm text-gray-400 mt-2 md:mt-0">Made by <span className="text-primary font-bold">Amal Manjapallil</span> || Based on the design of <span className="text-primary font-bold">Pedrotech</span></p>
         </div>
     </section>
 }
