@@ -1,11 +1,14 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import MusicPlayer from '../assets/projects/MusicPlayer.jpeg';
+import CarePlusImg from '../assets/projects/Care-plus.png';
+import UrlShortenerImg from '../assets/projects/Url-Shortener.png';
 
 const projects = [
     {
         id: 1,
         title: "Care-Plus portal",
         description: "Full-stack patient portal for managing appointments, records, and user access.",
-        image: "/projects/Care-plus.png",
+        image: CarePlusImg,
         tags: ["React", "Node.js", "Express.js", "MongoDB"],
         demoUrl: "#",
         githubUrl: "https://github.com/leman973/To-do-list",
@@ -14,7 +17,7 @@ const projects = [
         id: 2,
         title: "Url-Shortener",
         description: "Full-stack URL Shortener with authentication, built on Node.js, Express, MongoDB, and EJS.",
-        image: "/projects/Url-Shortener.png",
+        image: UrlShortenerImg,
         tags: ["Nodejs", "Express", "Mongodb", "EJS", "Jwt-Authentication"],
         demoUrl: "#",
         githubUrl: "https://github.com/leman973/url-shortener",
@@ -23,7 +26,7 @@ const projects = [
         id: 3,
         title: "MusicPlayer",
         description: "A simple music player website",
-        image: "/projects/MusicPlayer.jpeg",
+        image: MusicPlayer,
         tags: ["HTML", "CSS", "Javascript"],
         demoUrl: "#",
         githubUrl: "https://github.com/leman973/Music-Player",
