@@ -12,7 +12,7 @@ import {
     FaPython,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiExpress, SiMysql, SiCplusplus } from "react-icons/si";
+import { SiTailwindcss, SiExpress, SiMysql, SiCplusplus, SiMongodb } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 
 
@@ -23,6 +23,7 @@ const skills = [
     { name: "Tailwind CSS", category: "frontend", icon: <SiTailwindcss /> },
 
     { name: "Node.js", category: "backend", icon: <FaNodeJs /> },
+    { name: "MongoDB", category: "backend", icon: <SiMongodb /> },
     { name: "Express", category: "backend", icon: <SiExpress /> },
     { name: "MySQL", category: "backend", icon: <SiMysql size={40}/> },
 
