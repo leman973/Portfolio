@@ -11,7 +11,7 @@ const projects = [
         image: CarePlusImg,
         tags: ["React", "Node.js", "Express.js", "MongoDB"],
         demoUrl: "#",
-        githubUrl: "https://github.com/leman973/To-do-list",
+        githubUrl: "https://github.com/leman973/patient-portal",
     },
     {
         id: 2,
